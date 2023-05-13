@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Results</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">HomePage</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">HomePage</a></li>
+							<li><a href="instance.html">SageMaker Instance</a></li>
+							<li><a href="eda.html">Analysis</a></li>
+							<li><a href="decision.html">Decision</a></li>
+							<li><a href="random.html">Random</a></li>
+							<li><a href="gboost.html">Gradient</a></li>
+							<li class="active"><a href="result.html">Results</a></li>
+						</ul>
+						
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									<h1>Results<br />
+									</h1>
+									
+								</header>
+								<h3>Training Result</h3>
+								<a href="#" class="image main"><img src="images/train1.png" alt="" /></a>
+								<h3>Testing Result</h3>
+								<a href="#" class="image main"><img src="images/test1.png" alt="" /></a>
+								<h2> Conclusion </h2>
+								<p>Before working on features first we need to know about the data insights which we get to know by EDA. Apart from that, we visualize the data by drawing various plots, due to which we understand that we don’t have any data for taxi’s price, also the price variations of other cabs and different types of weather. Other value count plots show the type and amount of data the dataset has. After this, we convert all categorical values into continuous data type and fill price Nan by the median of other values. 
+								Then the most important part of feature selection came which was done with the help of recursive feature elimination. </p>
+								<p>We apply four different models on our remaining dataset among which Decision Tree, Random Forest, and Gradient Boosting Regressor prove best with 96%+- accuracy on training for our model. This means the predictive power of all these three algorithms in this dataset with the chosen features is very high but in the end, we go with random forest because it does not prone to overfitting.
+									
+								</section>
+
+					</div>
+
+				
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
